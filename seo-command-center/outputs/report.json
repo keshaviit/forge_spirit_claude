@@ -915,146 +915,19 @@
     }
   ],
   "fixes": {
-    "titles": [
-      {
-        "url": "https://nmgtechnologies.com/",
-        "old": "IT Outsource Software, Web & Mobile App Development Company - NMG",
-        "new": "AI Software, Web & Mobile App Development Company | NMG"
-      },
-      {
-        "url": "https://nmgtechnologies.com/agentic-ai",
-        "old": "Agentic AI Consulting Services | Expert AI Development & Integration",
-        "new": "Agentic AI Consulting: Expert Development & Integration"
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-driven-enterprise-software-development",
-        "old": "Enterprise AI Solutions | AI Software and Development Company",
-        "new": "AI-Driven Enterprise Software Development Services"
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-enhanced-web-mobile-application-development",
-        "old": "AI App Development Services | Custom Artificial Intelligence Applications",
-        "new": "AI Web & Mobile App Development Services | NMG Technologies"
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-optimized-ecommerce-solutions",
-        "old": "AI-Powered Ecommerce | Advanced AI Solutions for Online Retail",
-        "new": "AI-Optimized eCommerce Solutions | Advanced AI for Retail"
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-powered-business-process-transformation",
-        "old": "AI Powered Service | Innovative AI-Driven Solutions for Business",
-        "new": "AI-Powered Business Process Transformation | NMG Technology"
-      },
-      {
-        "url": "https://nmgtechnologies.com/blog/advantages-of-asp-net-core",
-        "old": ".NET Core: 20 Advantages of Building Your Software in ASP.NET Core |",
-        "new": "20 Key Advantages of Building Software with ASP.NET Core"
-      },
-      {
-        "url": "https://nmgtechnologies.com/blog/best-practices-offshore-software-development",
-        "old": "Best Practices of Offshore Software Development Company (2022)",
-        "new": "Offshore Software Development Best Practices (2024)"
-      },
-      {
-        "url": "https://nmgtechnologies.com/blog/how-to-build-an-app-like-uber",
-        "old": "How To Build an App like Uber - Mobile App Development | NMG",
-        "new": "How to Build an App Like Uber: Cost & Development Guide"
-      },
-      {
-        "url": "https://nmgtechnologies.com/blog/nmg-technologies-made-list-top-mobile-app-development-companies-goodfirms",
-        "old": "NMG Made It on the List of Top Mobile App Development Companies at GoodFirms",
-        "new": "Top Mobile App Development Company: NMG Technologies | GoodF"
-      },
-      {
-        "url": "https://nmgtechnologies.com/",
-        "old": "NMG Technologies is a leading IT outsourcing company with over 15+ years of experience, 1000+ projects delivered, 500+Clients and a 100+ people team in-house. Get Started Today!",
-        "new": "Scale your business with AI innovation from NMG Technologies. 15+ years of expertise, 1000+ projects delivered, and a proven track record. Get started!"
-      },
-      {
-        "url": "https://nmgtechnologies.com/agentic-ai",
-        "old": "Discover top Agentic AI consulting services specializing in custom AI agent development, enterprise AI solutions, and seamless integration. Hire experts to transform your business with intelligent automation. Schedule a demo today!",
-        "new": "Scale your business with Agentic AI consulting. We specialize in custom AI agents and enterprise autonomy to drive intelligent automation. Schedule a demo!"
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-driven-business-transformation-consulting",
-        "old": "Transform your business with AI. Our consulting services help you innovate faster, optimize operations, and scale sustainably through AI\u2011driven transformation.",
-        "new": "Accelerate growth with AI-driven business transformation. Our consulting helps you optimize operations, innovate faster, and scale sustainably. Learn more."
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-driven-devops-cloud-automation",
-        "old": "Accelerate software delivery with AI DevOps automation. Leverage AI-driven CI/CD pipelines, infrastructure automation, and cloud orchestration to enhance efficiency and innovation.",
-        "new": "Accelerate software delivery with AI-driven DevOps and cloud automation. Optimize CI/CD pipelines and infrastructure to boost efficiency and innovation."
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-driven-enterprise-software-development",
-        "old": "Accelerate innovation with enterprise AI solutions from a trusted AI development company. Customized AI software solutions empower enterprises to optimize operations and unlock new growth opportunities.",
-        "new": "Scale your business with AI-driven enterprise software development. Optimize operations and unlock growth with custom AI solutions from NMG Technologies."
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-enhanced-web-mobile-application-development",
-        "old": "Transform your business with AI app development services. We create advanced AI applications that drive automation, improve decision-making, and deliver personalized user experiences.",
-        "new": "Scale your business with AI-enhanced web and mobile app development. We build intelligent solutions for automation, better insights, and personalized UX."
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-machine-learning-solutions",
-        "old": "Transform your enterprise with AI and machine learning solutions. Expert services designed to integrate intelligent automation and data-driven insights for sustainable success.",
-        "new": "Scale your enterprise with expert AI and machine learning solutions. Drive sustainable growth through intelligent automation and data-driven insights."
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-optimized-ecommerce-solutions",
-        "old": "Transform your ecommerce business with AI-powered solutions. Enhance customer experience, automate processes, and increase sales through intelligent ecommerce optimization.",
-        "new": "Scale your online store with AI-optimized eCommerce solutions. Boost sales, automate processes, and enhance customer experiences with intelligent optimizat"
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-powered-business-process-transformation",
-        "old": "Drive digital innovation with our AI powered service. We provide AI-driven business solutions designed to optimize performance, enhance efficiency, and accelerate growth.",
-        "new": "Accelerate growth and optimize performance with AI-powered business process transformation. Drive efficiency and digital innovation with NMG Technologies."
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-powered-saas-development",
-        "old": "Create and launch AI-powered SaaS applications with our AI SaaS builder platform. Deliver innovative SaaS products and AI-driven software solutions that scale with your business needs.",
-        "new": "Build scalable AI-powered SaaS applications with our expert development services. Launch innovative, AI-driven software solutions tailored to your business"
-      }
-    ],
-    "redirect_map": [
-      {
-        "from": "https://nmgtechnologies.com/hs-fs/hubfs/edtech.png.png?width=101&height=100&name=edtech.png.png",
-        "to": "https://nmgtechnologies.com/hs-fs/hubfs/edtech.jpg?width=600&height=400&name=edtech.jpg",
-        "reason": "Path similarity match"
-      },
-      {
-        "from": "https://nmgtechnologies.com/hs-fs/hubfs/fintech.png.png?width=101&height=100&name=fintech.png.png",
-        "to": "https://nmgtechnologies.com/hs-fs/hubfs/fintech.jpg?width=600&height=400&name=fintech.jpg",
-        "reason": "Path similarity match"
-      },
-      {
-        "from": "https://nmgtechnologies.com/hs-fs/hubfs/fintechgrey.png?width=122&height=80&name=fintechgrey.png",
-        "to": "https://nmgtechnologies.com/hs-fs/hubfs/fintech.jpg?width=600&height=400&name=fintech.jpg",
-        "reason": "Path similarity match"
-      },
-      {
-        "from": "https://nmgtechnologies.com/hs-fs/hubfs/glob.png.png?width=101&height=100&name=glob.png.png",
-        "to": "https://nmgtechnologies.com/hs-fs/hubfs/clutch-global.png.png?width=161&height=138&name=clutch-global.png.png",
-        "reason": "Path similarity match"
-      },
-      {
-        "from": "https://nmgtechnologies.com/hs-fs/hubfs/healthgrey.png?width=105&height=90&name=healthgrey.png",
-        "to": "https://nmgtechnologies.com/hs-fs/hubfs/healthcare.jpg?width=600&height=400&name=healthcare.jpg",
-        "reason": "Path similarity match"
-      }
-    ]
+    "titles": [],
+    "redirect_map": []
   },
   "recommendations": [
-    "Fix the 12 High-severity 'duplicate_title' issue(s) first.",
-    "Fix the 6 High-severity 'broken_link' issue(s) first.",
-    "Fix the 63 Medium-severity 'title_too_long' issue(s) first.",
-    "Fix the 16 Medium-severity 'duplicate_meta_description' issue(s) first.",
-    "Fix the 2 Medium-severity 'missing_h1' issue(s) first."
+    "Fix 12 High-severity duplicate_title issues.",
+    "Fix 6 High-severity broken_link issues.",
+    "Fix 63 Medium-severity title_too_long issues.",
+    "Fix 16 Medium-severity duplicate_meta_description issues.",
+    "Fix 2 Medium-severity missing_h1 issues."
   ],
   "run_meta": {
     "model": "qwen3.5:9b",
     "model_calls": 0,
-    "duration_sec": 35.8
+    "duration_sec": 57.3
   }
 }
