@@ -157,7 +157,7 @@ def detect(rows: list[dict]) -> list[dict]:
         "Indexable pages with zero internal links in.")
 
     add("thin_content", "Low",
-        [r["Address"] for r in rows if indexable(r) and _int(r.get("Word Count")) < 200],
+        [r["Address"] for r in html if indexable(r) and _int(r.get("Word Count")) < 200],
         "Indexable pages with low word count (< 200).")
 
     add("slow_page", "Low",
@@ -168,37 +168,6 @@ def detect(rows: list[dict]) -> list[dict]:
         [r["Address"] for r in rows if (r.get("Indexability", "") or "").strip().lower() == "non-indexable" and _int(r.get("Inlinks")) > 0],
         "Non-indexable pages that are still linked internally.")
 
-    # --- Canonicals & Depth ---
-    def norm(u):
-        return (u or "").strip().rstrip("/")
-
-    add("missing_canonical", "Medium",
-        [r["Address"] for r in idx200 if not (r.get("Canonical URL", "") or "").strip()],
-        "Indexable pages missing a canonical tag.")
-
-    add("canonical_mismatch", "Medium",
-        [r["Address"] for r in idx200 if (can := (r.get("Canonical URL", "") or "").strip()) and norm(can) != norm(r["Address"])],
-        "Canonical URL does not match the page address.")
-
-    add("canonical_to_redirect", "High",
-        [r["Address"] for r in idx200 if (can := (r.get("Canonical URL", "") or "").strip()) and 300 <= status_map.get(can, 0) <= 399],
-        "Canonical URL points to a redirect.")
-
-    add("canonical_to_broken_page", "High",
-        [r["Address"] for r in idx200 if (can := (r.get("Canonical URL", "") or "").strip()) and status_map.get(can, 0) >= 400],
-        "Canonical URL points to a broken page (4xx/5xx).")
-
-    add("deep_page", "Medium",
-        [r["Address"] for r in idx200 if _int(r.get("Crawl Depth")) > 5],
-        "Pages buried deeper than 5 clicks from home.")
-
-    # ----------------------------------------------------------------------- #
-    # TODO (Sprint): add the rest of the rulebook for full accuracy:
-    #   title_too_short, missing_meta_description, duplicate_meta_description,
-    #   meta_description_too_long, missing_h1, duplicate_h1, redirect_chain,
-    #   thin_content, non_indexable_but_linked, slow_page
-    # Each is a short rule over the columns — see rulebook.md.
-    # ----------------------------------------------------------------------- #
 
     return issues
 

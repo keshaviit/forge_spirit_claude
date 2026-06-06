@@ -190,9 +190,15 @@ class H(BaseHTTPRequestHandler):
 
 
 def start_dashboard(port=PORT):
-    httpd = ThreadingHTTPServer(("127.0.0.1", port), H)
-    threading.Thread(target=httpd.serve_forever, daemon=True).start()
-    return httpd
+    try:
+        httpd = ThreadingHTTPServer(("127.0.0.1", port), H)
+        httpd.allow_reuse_address = True
+        threading.Thread(target=httpd.serve_forever, daemon=True).start()
+        print(f"[seo] dashboard live at http://localhost:{port}", flush=True)
+        return httpd
+    except OSError:
+        print(f"[seo] port {port} already in use — dashboard already running", flush=True)
+        return None
 
 
 def _run_mcp():

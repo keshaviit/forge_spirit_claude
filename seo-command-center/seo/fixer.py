@@ -7,8 +7,10 @@ import json
 import urllib.request
 from difflib import SequenceMatcher
 
+import os
+
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL = "gemma4:31b-cloud"
+MODEL = os.environ.get("RADAR_MODEL", "qwen3.5:9b")
 
 def call_ollama(prompt: str) -> str:
     """Simple wrapper for Ollama generate API."""
@@ -17,8 +19,8 @@ def call_ollama(prompt: str) -> str:
         req = urllib.request.Request(OLLAMA_URL, data=data, headers={"Content-Type": "application/json"})
         with urllib.request.urlopen(req) as resp:
             return json.loads(resp.read().decode("utf-8")).get("response", "").strip()
-    except Exception as e:
-        return f"Error calling Ollama: {e}"
+    except Exception:
+        return ""
 
 def get_similarity_candidates(broken_url: str, rows: list[dict], limit=5) -> list[str]:
     """Find the most similar 200 OK indexable URLs based on path similarity."""
